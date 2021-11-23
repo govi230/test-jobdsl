@@ -1,0 +1,7 @@
+job("Build"){
+	step{
+		shell{
+			command(value="echo Build")
+		}
+	}
+}
