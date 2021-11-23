@@ -1,5 +1,5 @@
 job("Build"){
-	step{
+	steps{
 		shell{
 			command(value="echo Build")
 		}
